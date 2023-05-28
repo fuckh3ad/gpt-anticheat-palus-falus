@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Simple Navigation System</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <nav>
+        <div class="container">
+            <section>
+
+                <a id="top0" href="#index">Home</a>
+                <a id="top1" href="#galerie">Fotogalerie</a>
+                <a id="top2" href="#reference">Reference</a>
+                <a id="top3" href="#stahnout">Stahnout</a> 
+                <a id="top4" href="#kontakty">Kontakty</a>
+            </section>
+            <section>
+                <a id="index" href="#top0">Zpatky</a>
+                <a href="index.html">Domaci stranka</a>
+            </section>
+            <section>
+                    <a id="galerie" href="#top1">Zpatky</a>
+                    <a href="fotofirma.html">Foto firma</a>
+            </section>
+            <section>
+                <a id="stahnout" href="#top3">Zpatky</a>
+                <a href="stahnoutsw.html">Stahnout gpt-anticheat</a>
+            </section>
+            <section>
+                <a id="reference" href="#top2">Zpatky</a>
+                <a href="reference.html">Reference a spokojenost</a>
+            </section>
+            <section>
+                <a id="kontakty" href="#top4">Zpatky</a>
+                <a href="kontaky.html">Formular a Kontakty</a>
+            </section>
+        </div>
+    </nav>
+
+      <h1>Kontakt</h1>
+    
+      <h2>Adresa</h2>
+      <p>Ulice 123, Město, Země</p>
+    
+      <h2>Email</h2>
+      <p>info@gpt-anicheat.com</p>
+    
+      <h2>Telefon</h2>
+      <p>+1234567890</p>
+    
+      <h1>Formulář</h1>
+      <form action="submit.php" method="POST">
+        <label for="name">Jméno:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="message">Zpráva:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+    
+        <input type="submit" value="Odeslat">
+      </form>
+    
+
+</body>
+
+</html>
